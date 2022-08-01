@@ -1,0 +1,644 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+
+.apis_navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #00000057;
+    z-index: 99999;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: gold;
+    font-size: 35px;
+    font-family: serif;
+    font-weight: 700;
+    border: none;
+}
+
+.nav-left a:hover {
+    color: #00000071;
+}
+
+.nav-left span {
+    color: #00000071;
+}
+
+.nav_center {
+    display: flex;
+}
+
+.nav_center li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.nav_center li a {
+    font-family: serif;
+    text-decoration: none;
+    color: #00000080;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav_center li a:hover {
+    color: gold;
+}
+
+.nav_right a {
+    font-family: serif;
+    color: #00000080;
+    font-weight: 600;
+    font-family: serif;
+    padding: 0 10px;
+}
+
+.nav_right a:hover {
+    color: gold;
+}
+
+.nav_right button {
+    font-family: serif;
+    background: #0000003b;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.nav_right button:hover {
+    background: gold;
+    border: none;
+    color: white;
+}
+/*End of Navbar*/
+/*Main Services*/
+.services {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.main_services-a {
+    display: flex;
+}
+
+.main_services-a a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #00000071;
+}
+
+.main_services-a a:hover {
+    color: gold;
+}
+
+.main_services-a p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main_services-head h2 {
+    font-family: serif;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.main_services-head p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main_services-head button {
+    font-family: serif;
+    background: #0000003b;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.main_services-head button:hover {
+    background: #f6f627;
+    border: none;
+    background-color: gold;
+    color: white;
+}
+/*End of Main Services*/
+/*Text section*/
+.software_peren-div {
+    padding: 50px 0;
+}
+
+.coftware_product {
+    padding: 50px 0;
+}
+
+.coftware_product h2 {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #060e29;
+    line-height: 1.5;
+}
+
+.coftware_product h2 span {
+    color: gold;
+}
+
+.app_users-text {
+    display: flex;
+}
+
+.users_app {
+    margin: 0 10px;
+}
+
+.app_users-text h4 {
+    color: #555c69;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 100px;
+    margin-bottom: 0rem;
+    -webkit-text-stroke: 2px gold;
+    -webkit-text-fill-color: transparent;
+}
+
+.app_users-text h4 span {
+    font-size: 47px;
+}
+
+.app_users-text h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.app_users-text h3 span a {
+    color: gold;
+}
+
+.app_users-text h3 span a:hover {
+    color: #00000080;
+}
+/*End of Text section*/
+/*New Product Text*/
+.accordion {
+    max-width: 100%;
+}
+
+.accordion .contentBx {
+    position: relative;
+    margin: 15px 20px;
+}
+
+.accordion .contentBx .label {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    color: #00000080;
+    cursor: pointer;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.accordion .contentBx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+    content: '^';
+}
+
+.accordion .contentBx .content {
+    position: relative;
+    /* background: #fff; */
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+    height: auto;
+    padding: 10px;
+}
+
+.accordion .contentBx.active .content a {
+    color: gold;
+}
+
+.accordion .contentBx.active .content a:hover {
+    color: #00000080;
+}
+/*End of New Product Text*/
+
+/*Pover track record*/
+.proven-track {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.proven-track h2 {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #060e29;
+    line-height: 1.5;
+}
+
+.proven_text-img {
+    padding-top: 60px;
+}
+
+.proven_text-img h2 {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #060e29;
+    line-height: 1.5;
+}
+
+.pover_bg-img {
+    position: relative;
+    background-color: gold;
+    /* background-color: #5cb7b9; */
+    background-image: url(../image/missed-bg.svg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: 84px -1px;
+    height: 600px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.pover_imgOne {
+    position: absolute;
+    top: 32px;
+    left: 57px;
+}
+
+.pover_imgTwo {
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+}
+
+.proven_imgs {
+    padding-top: 50px;
+}
+
+.proven_text {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.proven_text h2 {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #060e29;
+    line-height: 1.5;
+}
+
+.buttons {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.buttons button {
+    padding: 20px 62px;
+    font-size: 24px;
+    font-weight: 600;
+    /* color: gold; */
+    /* background-color: #e8ebff; */
+    background: #0000003b;
+    color: #000000;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.buttons button:hover {
+    background: gold;
+    border: none;
+    color: white;
+}
+/*End of Pover track record*/
+/*Our Agile Development*/
+.our-agile-text {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.our-agile-text h2 {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #060e29;
+    line-height: 1.5;
+}
+
+.our-agile-text h2 span {
+    color: gold;
+}
+
+/*?---------------Step----------------------*/
+.our_bg-process {
+    background: url(../image/process-bg.svg) no-repeat;
+    /* background-image: gold; */
+    /* background-position: -60px 275px; */
+    margin-top: 60px;
+    height: 1800px;
+    width: 100%;
+}
+
+.step-borders:nth-child(1) {
+    margin-top: 0px;
+}
+
+.step-borders {
+    position: relative;
+    background-color: #f6f699;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.step-borders2 {
+    position: relative;
+    background-color: #f6f699;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.step-borders:hover {
+    box-shadow: 0px 0px 5px 5px #d3d3b5;
+}
+
+.step-borders2:hover {
+    box-shadow: 0px 0px 5px 5px #d3d3b5;
+}
+
+.step-h2 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-size: 45px;
+    font-weight: 600;
+    color: gold;
+}
+
+.step_head-p {
+    text-align: center;
+    padding: 40px;
+    padding-top: 90px;
+}
+
+.step_head-p a {
+    color: gold;
+}
+
+.step_head-p a:hover {
+    color: #00000080;
+}
+/*End of Our Agile Development*/
+
+/*What clents say*/
+.swiper {
+    padding: 30px 0;
+}
+
+.swiper-slide {
+    width: 300px;
+    border: 1px solid #555c69;
+    border-radius: 10px;
+}
+
+.swiper-slide img {
+    margin-left: 10px;
+}
+
+.swiper-slide:hover {
+    box-shadow: 0px 0px 5px 5px #6a6c6fa0;
+}
+
+.slider-text {
+    padding: 0 25px;
+    margin-bottom: 50px;
+}
+
+.slider-imgText {
+    background-color: #f4f5f6;
+    border-radius: 0 0 10px 10px;
+}
+
+.slider-imgText img {
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.sliderImgText {
+    display: flex;
+}
+
+.sliders-text-star {
+    padding: 0 10px;
+}
+
+.sliders-text-star h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555c69;
+    line-height: 1.5;
+    margin-bottom: 0rem;
+    padding-top: 10px;
+}
+
+.sliders-text-star p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #060e29;
+    margin-bottom: 0rem;
+}
+
+.slider-star {
+    display: flex;
+}
+
+.slider-star img {
+    margin: 0;
+}
+
+.slider-star h6 {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.swiper-horizontal>.swiper-scrollbar {
+    position: absolute;
+    left: 30%;
+    bottom: 5px;
+    z-index: 50;
+    height: 10px;
+    width: 30%;
+}
+/*End of What clents say*/
+
+.frequently {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*Interested services*/
+.text-form {
+    display: flex;
+    padding: 50px 0;
+}
+
+.interested-left {
+    position: relative;
+    flex-basis: 50%;
+}
+
+.interested-strelka {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.interested-left h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #060e29;
+    padding-bottom: 20px;
+}
+
+.interested-left h2 span {
+    color: gold;
+}
+
+.interested-left h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: gold;
+    padding: 20px 0;
+}
+
+.img-text {
+    display: flex;
+    align-items: center;
+}
+
+.img-text p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    padding: 0 15px;
+}
+/*------------------Right-------------------*/
+/* .interested-right {
+    flex-basis: 40%;
+} */
+
+.input {
+    border-bottom: 1px solid #00000080;
+    margin-top: 25px;
+}
+
+.inputs {
+    border: none;
+}
+
+.interested-forum {
+    border: 1px solid gold;
+    border-radius: 10px;
+    width: auto;
+}
+
+.formInput {
+    padding: 50px 30px;
+}
+/*End of Interested services*/
+
+.footer {
+    background-color: #121624;
+}
+
+.footer-text {
+    padding: 50px 0;
+}
+
+.footer-link h4 {
+    color: #fff;
+}
+
+.footer-link a {
+    text-decoration: none;
+}
+
+.footer-link h5 {
+    padding: 10px 0;
+    color: #a1a8b7;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-link h5:hover {
+    color: #fff;
+}
+
+
+
+
+.footer2 {
+    padding: 30px 0;
+    border-top: 1px solid #3b4155;
+}
+
+.foter-img-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foter-img a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.foter-p p {
+    color: #a1a8b7;
+}
